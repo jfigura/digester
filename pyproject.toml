@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "digester"
+version = "0.1.0"
+description = "Digests my Spotify activity."
+authors = ["Juraj Figura <guitarist90@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+fire = "*"
+spotipy = "^2.19"
+python-dateutil = "*"
+requests = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+pytest-cov = "*"
+pylint = "*"
+responses = "*"
+yapf = "*"

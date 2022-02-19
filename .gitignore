@@ -1,0 +1,7 @@
+.idea
+.pytest_cache
+.coverage
+__pycache__
+dist
+.cache
+.cov

@@ -9,4 +9,5 @@ test:
 
 check: yapf pylint test
 
-job: poetry run python -m digester.job
+job:
+	poetry run python -m digester.job

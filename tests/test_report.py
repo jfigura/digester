@@ -12,7 +12,7 @@ def test_make_report():
     ]
     report = make_report(date, songs)
     assert report == '\n'.join([
-        'You played 2 songs on Wednesday, 09. February 2022.\n',
+        'You played 2 songs on Wednesday, February 09, 2022.\n',
         'Nirvana: Polly',
         'Oasis: Whatever',
     ])

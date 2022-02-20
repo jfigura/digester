@@ -3,6 +3,7 @@ name: Nightly run
 on:
   schedule:  # runs at 4:05 AM every day on the main branch
     - cron: '5 4 * * *'
+  workflow_dispatch:
 
 jobs:
   nightly:

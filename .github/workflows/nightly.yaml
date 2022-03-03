@@ -21,4 +21,6 @@ jobs:
           SPOTIPY_REDIRECT_URI: http://example.com
           SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
           MAILGUN_APIKEY: ${{ secrets.MAILGUN_APIKEY }}
+          MAILGUN_URL: https://api.mailgun.net/v3/sandbox0ec66a6594f147c48dfac000ce780ea9.mailgun.org/messages
           EMAIL_RECIPIENT: guitarist90@gmail.com
+          EMAIL_SENDER: Digester <postmaster@sandbox0ec66a6594f147c48dfac000ce780ea9.mailgun.org>

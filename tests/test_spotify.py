@@ -28,7 +28,7 @@ def spotify_client():
 @pytest.fixture
 def oauth_env():
     value = 'dummy-refresh'
-    os.environ['SPOTIFY_REFRESH_TOKEN'] = 'dummy-refresh'
+    os.environ['SPOTIFY_REFRESH_TOKEN'] = value
     yield value
     del os.environ['SPOTIFY_REFRESH_TOKEN']
 

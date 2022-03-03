@@ -6,6 +6,7 @@ from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
 
 import dateutil.parser
+import fire
 from spotipy import Spotify
 from spotipy.oauth2 import SpotifyOAuth
 
@@ -95,4 +96,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    fire.Fire(main)
